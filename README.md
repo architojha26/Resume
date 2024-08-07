@@ -50,7 +50,7 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Contact
 
-For any questions or feedback, please contact Archit Ojha at [ojhaarchit26@gmail.com](mailto:ojhaarchit26@gmail.com) or connect via [LinkedIn](https://www.linkedin.com/in/architojha).
+For any questions or feedback, please contact Archit Ojha at [architojha2001@gmail.com](mailto:ojhaarchit26@gmail.com) or connect via [LinkedIn](https://www.linkedin.com/in/architojha).
 
 ---
 
