@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Archit Ojha - Portfolio</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            color: #333;
+            background-color: #f4f4f4;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        header {
+            background: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        .content {
+            background: #fff;
+            padding: 2rem;
+            margin: 2rem 0;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1, h2 {
+            color: #333;
+        }
+        h2 {
+            border-bottom: 2px solid #333;
+            padding-bottom: 0.5rem;
+            margin-bottom: 1rem;
+        }
+        ul {
+            list-style-type: none;
+            padding: 0;
+        }
+        ul li {
+            margin-bottom: 0.5rem;
+        }
+        .contact-info, .education, .experience, .projects, .skills, .positions, .achievements {
+            margin-bottom: 2rem;
+        }
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+        }
+        .contact-info a:hover {
+            text-decoration: underline;
+        }
+        .card {
+            background: #f9f9f9;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            border-radius: 5px;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+        }
+        .card h3 {
+            margin: 0 0 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Archit Ojha</h1>
+            <p>B.Tech - Metallurgy Engineering and Materials Science | Minor in Humanities and Social Sciences</p>
+            <p>Indian Institute of Technology (IIT) Indore</p>
+        </div>
+    </header>
+    <div class="container">
+        <div class="content contact-info">
+            <h2>Contact Information</h2>
+            <p><strong>Phone:</strong> +91-8787041948</p>
+            <p><strong>Email:</strong> <a href="mailto:ojhaarchit26@gmail.com">ojhaarchit26@gmail.com</a></p>
+            <p><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/architojha" target="_blank">www.linkedin.com/in/architojha</a></p>
+        </div>
+
+        <div class="content education">
+            <h2>Education</h2>
+            <div class="card">
+                <h3>B.Tech.</h3>
+                <p><strong>Institute/Board:</strong> Indian Institute of Technology (IIT) Indore</p>
+                <p><strong>Year:</strong> 2018-22</p>
+                <p><strong>CGPA:</strong> 9.25</p>
+            </div>
+            <div class="card">
+                <h3>Senior Secondary</h3>
+                <p><strong>Institute/Board:</strong> CBSE Board</p>
+                <p><strong>Year:</strong> 2018</p>
+                <p><strong>Percentage:</strong> 95.6%</p>
+            </div>
+            <div class="card">
+                <h3>Secondary</h3>
+                <p><strong>Institute/Board:</strong> CBSE Board</p>
+                <p><strong>Year:</strong> 2016</p>
+                <p><strong>CGPA:</strong> 10 CGPA</p>
+            </div>
+        </div>
+
+        <div class="content experience">
+            <h2>Experience</h2>
+            <div class="card">
+                <h3>Software Development Engineer I</h3>
+                <p><strong>Company:</strong> NCR Voyix Corporation</p>
+                <p><strong>Duration:</strong> 4 July 2022 - Present</p>
+                <p><strong>Location:</strong> Hyderabad, India</p>
+                <ul>
+                    <li>Created cloud functions to update user info externally and connected and extended cloud services to generate Receipt Images at POS Machines directly through links, increasing user experience rating by 30% and reducing paper receipt usage by 40%.</li>
+                    <li>Created Sales, Performance, and Loyalty Dashboards using GCP Technologies like Big Query and Custom Visualizations using JavaScript, HTML, CSS, which increased sales by 9% and reduced cashier discrepancies by 20%.</li>
+                    <li>Developed NCR chatbot for faster BI access using a dialogue flow (GCP natural language processing platform) which interacts with a cloud function via a webhook to get dynamic responses from the NCR analytics data warehouse.</li>
+                </ul>
+            </div>
+            <div class="card">
+                <h3>Internship: Photonics for 2D Nanomaterials</h3>
+                <p><strong>Institution:</strong> Chinese University of Hong Kong</p>
+                <p><strong>Duration:</strong> 28 June - 20 Aug 2021</p>
+                <p><strong>Mentor:</strong> Prof. SUN Xiankai</p>
+                <ul>
+                    <li>Objective was to achieve a low-crosstalk aliasing-free optical phased array using simulations.</li>
+                    <li>An aliasing-free optical phased array requires half-wavelength spacing between neighboring waveguides, introducing high crosstalk between channels. Reducing the curvature of each waveguide reduces the coupling coefficients by 0.12 and eliminates crosstalk, leading to a reduction in size and number of phase shifters, which increases LIDAR efficiency by 7%.</li>
+                </ul>
+            </div>
+        </div>
+
+        <div class="content projects">
+            <h2>Projects</h2>
+            <div class="card">
+                <h3>Real Estate Price Prediction Project</h3>
+                <p><strong>Technologies:</strong> Python, Machine Learning</p>
+                <p><strong>Link:</strong> <a href="https://github.com/architojha26/Real-State-Price-Prediction-Project" target="_blank">GitHub Link</a></p>
+                <p><strong>Date:</strong> Aug 2021</p>
+                <p>Retrieving, Processing, and Visualizing Data with Python. Real Estate Price Prediction Project using linear regression and support vector regression with a dataset from a public repository.</p>
+            </div>
+            <div class="card">
+                <h3>Metal Oxide Nanostructured Films for Heavy Metal Ions Detection</h3>
+                <p><strong>Mentor:</strong> Dr. Ajay Kr. Kushwaha (IIT Indore)</p>
+                <p><strong>Duration:</strong> Dec 2021 - May 2022</p>
+                <p>Cr ions detection using TiO2 based electrodes up to the limit set by WHO. TiO2 is a promising material for sensing applications due to its high electron mobility, good limit of detection, and adequate energy band gap, leading to efficient electron extraction and transport.</p>
+            </div>
+        </div>
+
+        <div class="content skills">
+            <h2>Skills and Certifications</h2>
+            <ul>
+                <li><strong>Tools and Technologies:</strong> Google Cloud Platforms (GCP), Looker, Postman</li>
+                <li><strong>Languages and Database:</strong> C++, Python, SQL, HTML, CSS, Java, LookML, JavaScript</li>
+                <li><strong>Other Skills:</strong> Data Structures and Algorithms, Object-Oriented Programming (OOP), Mathematics, Communication, Presentation, Critical Thinking</li>
+                <li><strong>Certification:</strong> Python Specialization, University of Michigan (Coursera-2020)</li>
+            </ul>
+        </div>
+
+        <div class="content positions">
+            <h2>Positions of Responsibility</h2>
+            <ul>
+                <li><strong>Marketing & Publicity Head, Metacryst Club, IIT Indore</strong> (Mar 2020 - Apr 2021)</li>
+                <li><strong>Organizer, METABIZZ’20 (Part of Annual Techfest), IIT Indore</strong> (Dec 2020)</li>
+            </ul>
+        </div>
+
+        <div class="content achievements">
+            <h2>Achievements</h2>
+            <ul>
+                <li><strong>Hackathon:</strong> Among Top 10 Projects at Regional Level in NCR Hackathon (2023)</li>
+                <li><strong>Newton’s Coding Challenge:</strong> Ranked in Top 50 (at 41) across India (2021)</li>
+                <li><strong>September Lunchtime 2021- Codechef:</strong> 454- Global Rank (2021)</li>
+                <li><strong>Exceptional Performer:</strong> In the course of Theory of Metal Forming (2020)</li>
+                <li><strong>STRUCTURA’19:</strong> Runner-up at Structura 2019, IIT Indore at Fluxus (2019)</li>
+                <li><strong>Gold Medals:</strong> International Mathematics Olympiad (IMO-2018), Incredible India Quiz (2020) & MOTIF (2020)</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>
