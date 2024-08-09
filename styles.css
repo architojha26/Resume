@@ -3,18 +3,18 @@ body {
     margin: 0;
     padding: 0;
     color: #333;
-    background-color: #eaeaea; /* Light gray background */
+    background-color: #f4f4f4;
 }
 
 .container {
-    width: 90%;
+    width: 80%;
     margin: auto;
     overflow: hidden;
 }
 
 header {
-    background: #343a40; /* Dark gray background for header */
-    color: #fff; /* White text color */
+    background: #333;
+    color: #fff;
     padding: 1rem 0;
     text-align: center;
 }
@@ -25,72 +25,72 @@ header {
 
 .tabs {
     width: 20%;
-    background-color: #343a40; /* Dark gray for tabs background */
+    background-color: #f1f1f1;
     padding: 1rem;
-    box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1); /* Shadow to the right of tabs */
+    border-right: 1px solid #ddd;
 }
 
-.tabs button {
-    background-color: #495057; /* Gray for tab buttons */
-    border: none;
-    color: white;
-    padding: 12px 16px;
-    cursor: pointer;
-    font-size: 1rem;
-    text-align: left;
+.tablinks {
     display: block;
-    width: 100%;
-    border-radius: 5px;
+    background: #ddd;
+    color: #333;
+    border: none;
+    padding: 1rem;
     margin-bottom: 0.5rem;
+    text-align: left;
+    cursor: pointer;
+    width: 100%;
 }
 
-.tabs button.active {
-    background-color: #007bff; /* Blue for active tab */
+.tablinks:hover {
+    background: #ccc;
 }
 
-.tabs button:hover {
-    background-color: #0056b3; /* Darker blue for hover effect */
+.tablinks.active {
+    background: #bbb;
+    color: #000;
 }
 
-.tabcontent-wrapper {
+.tab-content {
     width: 80%;
     padding: 1rem;
 }
 
 .tabcontent {
     display: none;
-    padding: 1rem;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
-.education-section {
-    margin-bottom: 2rem;
-    padding: 1rem;
-    border-left: 4px solid #007bff; /* Blue border to the left of each section */
-    background-color: #f9f9f9; /* Light background for each section */
-}
-
-.education-section h3 {
-    color: #007bff; /* Blue color for section headers */
-    margin-top: 0;
+.tabcontent.show {
+    display: block;
 }
 
 .section {
     margin-bottom: 2rem;
 }
 
-.section h3 {
-    color: #007bff; /* Blue color for section headers */
+h2, h3 {
+    color: #333;
 }
 
-a {
-    color: #007bff; /* Blue color for links */
-    text-decoration: none;
+h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-a:hover {
-    text-decoration: underline; /* Underline on hover for links */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 0.5rem;
+}
+
+.card {
+    background: #f9f9f9;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
 }
