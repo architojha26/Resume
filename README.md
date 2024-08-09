@@ -1,59 +1,43 @@
-# Archit Ojha - Portfolio Web Page
+# Archit Ojha - Portfolio
 
-## Overview
+This repository contains the portfolio website of Archit Ojha. The website showcases Archit's educational background, work experience, and projects. It is built using HTML, CSS, and JavaScript.
 
-This repository contains the source code for a personal portfolio web page of Archit Ojha. The page provides an overview of Archit's education, experience, projects, skills, positions of responsibility, and achievements.
+## Project Overview
+
+The portfolio website includes a navigation system with tabs that display different sections of the portfolio, such as About Me, Education, Experience, and Projects. The site is responsive and styled with CSS for a clean and professional look.
+
+## Files
+
+- `index.html`: The main HTML file containing the structure of the portfolio website.
+- `styles.css`: The CSS file for styling the portfolio website.
+- `script.js`: The JavaScript file for handling the tab navigation functionality.
 
 ## Features
 
-- **Education**: Lists academic qualifications and achievements.
-- **Experience**: Details professional work experience and internships.
-- **Projects**: Showcases significant projects with descriptions and links.
-- **Skills and Certifications**: Highlights technical skills, tools, and certifications.
-- **Positions of Responsibility**: Outlines leadership and organizational roles.
-- **Achievements**: Lists notable accomplishments and awards.
+- **Tab Navigation**: Users can navigate between different sections (About Me, Education, Experience, Projects) using tab buttons.
+- **Responsive Design**: The website is designed to be responsive and accessible on various devices.
+- **Dynamic Content Display**: JavaScript is used to dynamically show and hide content based on user interaction with the tabs.
 
-## Technology Stack
+## How to Use
 
-- HTML
-- CSS
-- JS
-
-## Getting Started
-
-To view the portfolio web page, follow these steps:
-
-1. **Clone the Repository**:
+1. **Clone the Repository**
     ```bash
-    git clone https://github.com/your-username/your-repository.git
+    git clone https://github.com/your-username/portfolio.git
     ```
 
-2. **Navigate to the Directory**:
+2. **Navigate to the Project Directory**
     ```bash
-    cd your-repository
+    cd portfolio
     ```
 
-3. **Open the HTML File**:
-    - Open the `index.html` file in your preferred web browser to view the page.
-
-## File Structure
-
-- `index.html`: The main HTML file that contains the content of the portfolio page.
-- `styles.css` (if applicable): CSS file for additional styling (not included in the provided code, but can be added for better separation of styles).
+3. **Open the `index.html` File**
+    Open `index.html` in your preferred web browser to view the portfolio website.
 
 ## Contributing
 
-If you would like to contribute to this project, please fork the repository and create a pull request with your changes. Ensure that your code adheres to the existing style and functionality.
+Contributions are welcome! If you have suggestions for improvements or want to contribute, please open an issue or submit a pull request.
 
-## License
+## Acknowledgements
 
-This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
-
-## Contact
-
-For any questions or feedback, please contact Archit Ojha at [architojha2001@gmail.com](mailto:ojhaarchit26@gmail.com) or connect via [LinkedIn](https://www.linkedin.com/in/architojha).
-
----
-
-**Note:** This is a personal portfolio project. The content and information are provided as-is, and the accuracy of the information is the responsibility of the individual.
+Thanks to various online resources and tutorials that helped in building this portfolio. 
 
