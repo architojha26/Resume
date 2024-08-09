@@ -19,45 +19,28 @@ header {
     text-align: center;
 }
 
-.content {
-    background: #fff;
-    padding: 2rem;
-    margin: 2rem 0;
-    border-radius: 5px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+.tab {
+    overflow: hidden;
+    background-color: #333;
 }
 
-h1, h2 {
-    color: #333;
-}
-
-h2 {
-    border-bottom: 2px solid #333;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
-}
-
-ul {
-    list-style-type: none;
-    padding: 0;
-}
-
-ul li {
-    margin-bottom: 0.5rem;
-}
-
-.tablinks {
-    background-color: #f1f1f1;
-    border: 1px solid #ccc;
-    border-radius: 5px 5px 0 0;
+.tab button {
+    background-color: #333;
+    border: none;
+    color: white;
+    padding: 14px 16px;
     cursor: pointer;
-    padding: 1rem;
+    font-size: 1rem;
     text-align: center;
-    margin: 0;
+    border-radius: 5px 5px 0 0;
 }
 
-.tablinks.active {
-    background-color: #ccc;
+.tab button.active {
+    background-color: #555;
+}
+
+.tab button:hover {
+    background-color: #555;
 }
 
 .tabcontent {
@@ -69,9 +52,14 @@ ul li {
     background-color: #fff;
 }
 
-.tabcontent img {
-    max-width: 100%;
-    height: auto;
+.section {
+    margin-bottom: 2rem;
+}
+
+.section h3 {
+    border-bottom: 2px solid #333;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
 button {
