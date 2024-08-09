@@ -23,41 +23,45 @@ header {
     display: flex;
 }
 
+/* Tabs container */
 .tabs {
-    width: 20%;
-    background-color: #f1f1f1;
-    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    background-color: #e3f2fd; /* Light blue background for tabs */
     border-right: 1px solid #ddd;
+    height: 100vh;
 }
 
+/* Tab buttons */
 .tablinks {
-    display: block;
-    background: #ddd;
+    background-color: #bbdefb; /* Lighter blue color for tabs */
     color: #333;
     border: none;
-    padding: 1rem;
-    margin-bottom: 0.5rem;
+    padding: 10px;
     text-align: left;
     cursor: pointer;
-    width: 100%;
+    outline: none;
+    font-size: 16px;
+    transition: background-color 0.3s;
 }
 
 .tablinks:hover {
-    background: #ccc;
+    background-color: #90caf9; /* Slightly darker blue on hover */
 }
 
 .tablinks.active {
-    background: #bbb;
-    color: #000;
+    background-color: #64b5f6; /* Darker blue for active tab */
+    color: #fff;
 }
 
-.tab-content {
-    width: 80%;
-    padding: 1rem;
-}
-
+/* Tab content */
 .tabcontent {
     display: none;
+    padding: 20px;
+    margin-left: 220px; /* Adjust margin to make space for tabs */
+    background-color: #f9f9f9;
+    height: 100vh;
 }
 
 .tabcontent.show {
