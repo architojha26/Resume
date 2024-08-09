@@ -1,23 +1,20 @@
-document.addEventListener('DOMContentLoaded', () => {
-    const tabLinks = document.querySelectorAll('.tablinks');
-    const tabContents = document.querySelectorAll('.tabcontent');
+document.addEventListener("DOMContentLoaded", function() {
+    const tabs = document.querySelectorAll(".tablinks");
+    const contents = document.querySelectorAll(".tabcontent");
 
-    tabLinks.forEach(link => {
-        link.addEventListener('click', function() {
-            // Hide all tab contents
-            tabContents.forEach(content => content.classList.remove('show'));
+    tabs.forEach(tab => {
+        tab.addEventListener("click", function() {
+            tabs.forEach(t => t.classList.remove("active"));
+            contents.forEach(content => content.style.display = "none");
 
-            // Remove active class from all tab links
-            tabLinks.forEach(tab => tab.classList.remove('active'));
-
-            // Show the selected tab content
-            document.getElementById(this.dataset.target).classList.add('show');
-
-            // Add active class to the clicked tab link
-            this.classList.add('active');
+            const target = this.getAttribute("data-target");
+            document.getElementById(target).style.display = "block";
+            this.classList.add("active");
         });
     });
 
     // Set default tab
-    document.querySelector('.tablinks').click();
+    if (tabs.length > 0) {
+        tabs[0].click();
+    }
 });
