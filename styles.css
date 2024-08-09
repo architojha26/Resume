@@ -13,8 +13,8 @@ body {
 }
 
 header {
-    background: #007bff; /* Blue background for header */
-    color: #fff;
+    background: #343a40; /* Dark gray background for header */
+    color: #fff; /* White text color */
     padding: 1rem 0;
     text-align: center;
 }
