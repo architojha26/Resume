@@ -17,6 +17,7 @@ This repository contains the source code for a personal portfolio web page of Ar
 
 - HTML
 - CSS
+- JS
 
 ## Getting Started
 
