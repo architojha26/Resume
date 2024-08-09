@@ -53,6 +53,18 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+.education-section {
+    margin-bottom: 2rem;
+    padding: 1rem;
+    border-left: 4px solid #007bff; /* Blue border to the left of each section */
+    background-color: #f9f9f9; /* Light background for each section */
+}
+
+.education-section h3 {
+    color: #007bff; /* Blue color for section headers */
+    margin-top: 0;
+}
+
 .section {
     margin-bottom: 2rem;
 }
