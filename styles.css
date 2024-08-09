@@ -1,3 +1,4 @@
+/* Base styles */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
@@ -41,7 +42,7 @@ header {
     margin-right: 8px;
 }
 
-
+/* Header styles */
 header {
     background: #343a40; /* Dark gray background for header */
     color: #fff; /* White text color */
@@ -49,10 +50,13 @@ header {
     text-align: center;
 }
 
+/* Main content styles */
 .main-content {
     display: flex;
+    flex-direction: row;
 }
 
+/* Tabs styles */
 .tabs {
     width: 20%;
     background-color: #343a40; /* Dark gray for tabs background */
@@ -82,11 +86,13 @@ header {
     background-color: #0056b3; /* Darker blue for hover effect */
 }
 
+/* Tab content wrapper */
 .tabcontent-wrapper {
     width: 80%;
     padding: 1rem;
 }
 
+/* Tab content styles */
 .tabcontent {
     display: none;
     padding: 1rem;
@@ -96,6 +102,7 @@ header {
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Subtle shadow */
 }
 
+/* Section styles */
 .education-section {
     margin-bottom: 2rem;
     padding: 1rem;
@@ -123,4 +130,64 @@ a {
 
 a:hover {
     text-decoration: underline; /* Underline on hover for links */
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+    }
+
+    .tabs {
+        width: 100%;
+        box-shadow: none;
+    }
+
+    .tabs button {
+        margin-bottom: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .tabcontent-wrapper {
+        width: 100%;
+        padding: 0.5rem;
+    }
+
+    .tabcontent {
+        padding: 0.5rem;
+        font-size: 0.9rem;
+    }
+
+    .contact-info {
+        position: static;
+        flex-direction: row;
+        justify-content: center;
+        padding: 0;
+        margin-top: 10px;
+    }
+
+    .contact-item {
+        margin-bottom: 0;
+        margin-right: 10px;
+    }
+}
+
+@media (max-width: 480px) {
+    .tabs button {
+        font-size: 0.8rem;
+    }
+
+    .tabcontent {
+        font-size: 0.8rem;
+    }
+
+    .contact-info {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .contact-item img {
+        width: 14px;
+        height: 14px;
+    }
 }
